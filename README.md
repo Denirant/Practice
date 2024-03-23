@@ -1,3 +1,9 @@
 # React Native Quiz App
 
-# Developer - Daiil Yastrebov
+## Usage
+```bash
+  npm start
+```
+
+## Author
+Developer - Daiil Yastrebov
