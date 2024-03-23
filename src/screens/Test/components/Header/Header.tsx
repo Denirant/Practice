@@ -40,8 +40,7 @@ export function Header({
   const scrollViewRef = useRef<ScrollView & View>(null);
   const { width: screenWidth } = useWindowDimensions();
 
-  // On the first render (question 1), the ref will be null. The ref will be set asynchronously
-  // in the onLayout callback which should be called before the user scrolls to the next question.
+  
   if (offSetX.current !== null) {
     const offSet = offSetX.current;
     const boxWidth = 28 + 2 * 8;
